@@ -105,20 +105,20 @@ const content = {
       experience: "Experiencia laboral",
       skills: "Habilidades",
       languages: "Idiomas",
-      education: "Educacion"
+      education: "Educación"
     },
     contact: {
       emailLabel: "Email",
       emailValue: "darballerini@gmail.com",
-      phoneLabel: "Telefono",
+      phoneLabel: "Teléfono",
       phoneValue: "+54 2944 89-9950",
       webLabel: "Web",
       webValue: "linkedin.com/in/darballerini"
     },
     profile: [
-      "Hola! Soy Dario, Tech Lead y Full Stack Developer con mas de 6 anos de experiencia. Me enfoco en desarrollar sitios web de calidad que sean faciles de usar, visualmente atractivos y rapidos.",
-      "Cuento con solida experiencia en herramientas frontend como Angular, HTML, CSS y JavaScript; como asi tambien en el desarrollo de servicios backend, APIs y bases de datos utilizando Node.js, TypeScript, MongoDB y Redis. Mi motivacion principal es brindar a los usuarios la mejor experiencia posible en cada proyecto en el que participo.",
-      "Ultimamente, incorpore un flujo de trabajo diario centrado en IA, utilizando herramientas como Cursor para programar con mayor agilidad e integrando Inteligencia Artificial Generativa en los productos de la empresa para hacerlos mas eficientes."
+      "¡Hola! Soy Dario, Tech Lead y Full Stack Developer con más de 6 años de experiencia. Me enfoco en desarrollar sitios web de calidad que sean fáciles de usar, visualmente atractivos y rápidos.",
+      "Cuento con sólida experiencia en herramientas frontend como Angular, HTML, CSS y JavaScript; como así también en el desarrollo de servicios backend, APIs y bases de datos utilizando Node.js, TypeScript, MongoDB y Redis. Mi motivación principal es brindar a los usuarios la mejor experiencia posible en cada proyecto en el que participo.",
+      "Últimamente, incorporé un flujo de trabajo diario centrado en IA, utilizando herramientas como Cursor para programar con mayor agilidad e integrando Inteligencia Artificial Generativa en los productos de la empresa para hacerlos más eficientes."
     ],
     experience: [
       {
@@ -126,11 +126,11 @@ const content = {
         role: "Tech Lead",
         period: "JUL 2023 - ACTUALIDAD",
         bullets: [
-          "Lidero el equipo de desarrollo, fomentando el crecimiento de sus integrantes, la comunicacion abierta y el trabajo colaborativo.",
-          "Diseno y desarrollo servicios backend y APIs utilizando Node.js y TypeScript, trabajando con bases de datos como MongoDB y Redis para implementar funcionalidades completas.",
-          "Utilizo Cursor a diario para mejorar la velocidad y calidad del codigo, e integro funciones de IA Generativa directamente en los productos de la compania.",
-          "Colaboro en la planificacion del roadmap del proyecto para cumplir con los objetivos del negocio, analizando la viabilidad tecnica de las tareas y manteniendo altos estandares de calidad de codigo.",
-          "Brindo soporte constante a mis companeros, ofreciendo guia tecnica para mantener un ambiente de trabajo positivo."
+          "Lidero el equipo de desarrollo, fomentando el crecimiento de sus integrantes, la comunicación abierta y el trabajo colaborativo.",
+          "Diseño y desarrollo servicios backend y APIs utilizando Node.js y TypeScript, trabajando con bases de datos como MongoDB y Redis para implementar funcionalidades completas.",
+          "Utilizo Cursor a diario para mejorar la velocidad y calidad del código, e integro funciones de IA Generativa directamente en los productos de la compañía.",
+          "Colaboro en la planificación del roadmap del proyecto para cumplir con los objetivos del negocio, analizando la viabilidad técnica de las tareas y manteniendo altos estándares de calidad de código.",
+          "Brindo soporte constante a mis compañeros, ofreciendo guía técnica para mantener un ambiente de trabajo positivo."
         ]
       },
       {
@@ -138,8 +138,8 @@ const content = {
         role: "Frontend Developer",
         period: "APR 2021 - JUL 2023",
         bullets: [
-          "Lidere un proyecto para implementar Server-Side Rendering (SSR) y prerendering en un sitio complejo de Angular, logrando que cargue mucho mas rapido y mejore la fluidez para el usuario.",
-          "Desarrolle una libreria de Angular compartida que es utilizada en diversos sitios de la empresa."
+          "Lideré un proyecto para implementar Server-Side Rendering (SSR) y prerendering en un sitio complejo de Angular, logrando que cargue mucho más rápido y mejore la fluidez para el usuario.",
+          "Desarrollé una librería de Angular compartida que es utilizada en diversos sitios de la empresa."
         ]
       },
       {
@@ -147,11 +147,11 @@ const content = {
         role: "Frontend Developer",
         period: "SEP 2019 - APR 2021",
         bullets: [
-          "Desarrolle y gestione aplicaciones web utilizando Angular y React.",
-          "Cree componentes de UI reutilizables para mantener la consistencia visual entre diferentes proyectos.",
-          "Trabaje codo a codo con disenadores para asegurar que las propuestas de UI/UX fueran tecnicamente viables.",
-          "Colabore activamente con colegas para compartir conocimientos y optimizar los flujos de trabajo.",
-          "Me mantuve actualizado con las ultimas tendencias en desarrollo frontend."
+          "Desarrollé y gestioné aplicaciones web utilizando Angular y React.",
+          "Creé componentes de UI reutilizables para mantener la consistencia visual entre diferentes proyectos.",
+          "Trabajé codo a codo con diseñadores para asegurar que las propuestas de UI/UX fueran técnicamente viables.",
+          "Colaboré activamente con colegas para compartir conocimientos y optimizar los flujos de trabajo.",
+          "Me mantuve actualizado con las últimas tendencias en desarrollo frontend."
         ]
       },
       {
@@ -159,10 +159,10 @@ const content = {
         role: "Full Stack Developer",
         period: "NOV 2018 - SEP 2019",
         bullets: [
-          "Desarrolle aplicaciones frontend utilizando AngularJS y Angular 2+.",
-          "Cree y gestione aplicaciones backend utilizando Java.",
-          "Trabaje con equipos multidisciplinarios para conectar las capas de frontend y backend de los proyectos.",
-          "Me enfoque en el aprendizaje constante de nuevas habilidades y en mejorar mis conocimientos tecnicos."
+          "Desarrollé aplicaciones frontend utilizando AngularJS y Angular 2+.",
+          "Creé y gestioné aplicaciones backend utilizando Java.",
+          "Trabajé con equipos multidisciplinarios para conectar las capas de frontend y backend de los proyectos.",
+          "Me enfoqué en el aprendizaje constante de nuevas habilidades y en mejorar mis conocimientos técnicos."
         ]
       }
     ],
@@ -171,16 +171,16 @@ const content = {
       { label: "Frontend", value: "Angular, Vue, React, RxJS, Angular Material, Bootstrap" },
       { label: "Backend & APIs", value: "Node.js + Express, REST APIs" },
       { label: "Bases de datos", value: "MongoDB, SQL, NoSQL, Redis" },
-      { label: "Herramientas de IA", value: "Cursor, Integracion de IA Generativa" }
+      { label: "Herramientas de IA", value: "Cursor, Integración de IA Generativa" }
     ],
     languages: [
-      { label: "Espanol", value: "Nativo" },
-      { label: "Ingles", value: "Profesional (Proficient)" }
+      { label: "Español", value: "Nativo" },
+      { label: "Inglés", value: "Profesional (Proficient)" }
     ],
     education: {
-      degree: "Ingenieria en Sistemas",
+      degree: "Ingeniería en Sistemas",
       period: "2014 - 2017 UNLP",
-      note: "Nota: Complete tres anos de la carrera."
+      note: "Nota: Completé tres años de la carrera."
     }
   }
 };
@@ -312,7 +312,7 @@ const applyLocale = (locale) => {
   document.documentElement.lang = safeLocale;
   document.title =
     safeLocale === "es"
-      ? "Dario Ballerini - Curriculum"
+      ? "Dario Ballerini - Currículum"
       : "Dario Ballerini - Resume";
 
   applyStaticText(safeLocale);
