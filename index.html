@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dario Ballerini - Tech Lead and Full Stack Developer resume in English and Spanish."
+    />
+    <title>Dario Ballerini - Resume</title>
+    <link rel="preload" as="image" href="./GOB04568.webp" type="image/webp" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Header">
+      <div class="container header-inner">
+        <div class="language-switch" role="group" aria-label="Language switch" data-i18n-aria-label="ui.languageSwitch">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="container page" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-name">
+        <img
+          class="hero-photo"
+          src="./GOB04568.webp"
+          alt="Portrait of Dario Ballerini"
+          width="1088"
+          height="1633"
+          loading="lazy"
+          decoding="async"
+        />
+
+        <div class="hero-copy">
+          <h1 id="hero-name" data-i18n="hero.name">Dario Ballerini</h1>
+          <p class="role" data-i18n="hero.role">Tech Lead | Full Stack Developer</p>
+          <ul class="contact-list" aria-label="Contact details">
+            <li>
+              <span class="label" data-i18n="contact.emailLabel">Email</span>
+              <a data-i18n="contact.emailValue" href="mailto:darballerini@gmail.com">darballerini@gmail.com</a>
+            </li>
+            <li>
+              <span class="label" data-i18n="contact.phoneLabel">Phone</span>
+              <a data-i18n="contact.phoneValue" href="tel:+542944899950">+54 2944 89-9950</a>
+            </li>
+            <li>
+              <span class="label" data-i18n="contact.webLabel">Web</span>
+              <a
+                data-i18n="contact.webValue"
+                href="https://www.linkedin.com/in/darballerini/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                linkedin.com/in/darballerini
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="profile-title">
+        <h2 id="profile-title" data-i18n="sections.profile">Profile</h2>
+        <div id="profile-content" class="stack"></div>
+      </section>
+
+      <section class="section" aria-labelledby="experience-title">
+        <h2 id="experience-title" data-i18n="sections.experience">Experience</h2>
+        <div id="experience-content" class="stack"></div>
+      </section>
+
+      <section class="section two-column" aria-labelledby="skills-title">
+        <div>
+          <h2 id="skills-title" data-i18n="sections.skills">Skills</h2>
+          <div id="skills-content" class="stack compact"></div>
+        </div>
+
+        <div class="stack">
+          <div>
+            <h2 id="languages-title" data-i18n="sections.languages">Languages</h2>
+            <div id="languages-content" class="stack compact"></div>
+          </div>
+          <div>
+            <h2 id="education-title" data-i18n="sections.education">Education</h2>
+            <div id="education-content" class="stack compact"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
