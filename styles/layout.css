@@ -173,3 +173,15 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+
+@media (max-width: 47.99rem) {
+  .two-column > .stack {
+    gap: 0;
+  }
+
+  #languages-title,
+  #education-title {
+    margin-top: 2rem;
+    scroll-margin-top: 6.5rem;
+  }
+}
