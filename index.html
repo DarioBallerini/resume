@@ -1,107 +1,169 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Dario Ballerini - Tech Lead and Full Stack Developer resume in English and Spanish."
-    />
-    <title>Dario Ballerini - Resume</title>
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <link rel="icon" href="./favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" href="./favicon-16x16.png" sizes="16x16" />
-    <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180" />
-    <link rel="preload" as="image" href="./GOB04568.webp" type="image/webp" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Newsreader:opsz,wght@6..72,700&display=swap"
-    />
-    <link rel="stylesheet" href="./styles/base.css" />
-    <link rel="stylesheet" href="./styles/layout.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dario Ballerini · Software con mensajería de WhatsApp</title>
+<meta name="description" content="Desarrollo de software y automatización con la API oficial de WhatsApp Business para profesionales y empresas: recordatorios, confirmaciones y atención automatizada.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="icon" href="./favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <header class="site-header" aria-label="Header">
-      <div class="container header-inner">
-        <div class="language-switch" role="group" aria-label="Language switch" data-i18n-aria-label="ui.languageSwitch">
-          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
-          <button type="button" class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#inicio">Dario Ballerini</a>
+    <nav>
+      <a class="hide-sm" href="#servicios">Servicios</a>
+      <a class="hide-sm" href="#kinesiologia">Kinesiología</a>
+      <a class="hide-sm" href="#privacidad">Privacidad</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <section class="hero">
+    <div class="wrap grid">
+      <div>
+        <span class="eyebrow">Software · WhatsApp Business Platform</span>
+        <h1>Software que habla con tus clientes por WhatsApp.</h1>
+        <p class="lead">Diseño y desarrollo plataformas web que automatizan la comunicación de profesionales y pequeños negocios usando la API oficial de WhatsApp Business: recordatorios, confirmaciones y seguimiento, sin que tengas que escribir uno por uno.</p>
+        <div class="cta">
+          <a class="btn primary" href="#contacto">Hablemos</a>
+          <a class="btn ghost" href="#kinesiologia">Ver el primer producto</a>
         </div>
       </div>
-    </header>
 
-    <main id="main" class="container page" tabindex="-1">
-      <section class="hero" aria-labelledby="hero-name">
-        <img
-          class="hero-photo"
-          src="./GOB04568.webp"
-          alt="Portrait of Dario Ballerini"
-          width="1088"
-          height="1633"
-          loading="lazy"
-          decoding="async"
-        />
-
-        <div class="hero-copy">
-          <h1 id="hero-name" data-i18n="hero.name">Dario Ballerini</h1>
-          <p class="role" data-i18n="hero.role">Tech Lead | Full Stack Developer</p>
-          <ul class="contact-list" aria-label="Contact details">
-            <li>
-              <span class="label" data-i18n="contact.emailLabel">Email</span>
-              <a data-i18n="contact.emailValue" href="mailto:darballerini@gmail.com">darballerini@gmail.com</a>
-            </li>
-            <li>
-              <span class="label" data-i18n="contact.phoneLabel">Phone</span>
-              <a data-i18n="contact.phoneValue" href="tel:+542944899950">+54 2944 89-9950</a>
-            </li>
-            <li>
-              <span class="label" data-i18n="contact.webLabel">Web</span>
-              <a
-                data-i18n="contact.webValue"
-                href="https://www.linkedin.com/in/darballerini/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                linkedin.com/in/darballerini
-              </a>
-            </li>
-          </ul>
+      <div>
+        <div class="phone" aria-label="Ejemplo de recordatorio de turno por WhatsApp">
+          <div class="top">
+            <div class="avatar">C</div>
+            <div><b>Consultorio</b><span>Cuenta de empresa</span></div>
+          </div>
+          <div class="bubble">Hola Laura, te recordamos tu turno de mañana a las 10:30 con Lic. Pérez. ¿Confirmás tu asistencia?<small>09:00</small></div>
+          <div class="bubble me">Confirmo ✔<small>09:12</small></div>
+          <div class="bubble">¡Perfecto! Te esperamos. Si necesitás reprogramar, respondé “Reprogramar”.<small>09:12</small></div>
+          <p class="note">Ejemplo ilustrativo. Sin datos clínicos en los mensajes.</p>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <section class="section" aria-labelledby="profile-title">
-        <h2 id="profile-title" data-i18n="sections.profile">Profile</h2>
-        <div id="profile-content" class="stack"></div>
-      </section>
+  <section id="servicios" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Qué hago</h2>
+        <p>Construyo productos de software que usan la API oficial de WhatsApp Business (Cloud API de Meta) para comunicarse con clientes y pacientes de forma ordenada y con su consentimiento.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="ico">📅</div>
+          <h3>Recordatorios y confirmaciones</h3>
+          <p>Avisos automáticos de turnos, vencimientos o citas, con respuesta rápida para confirmar o reprogramar.</p>
+        </div>
+        <div class="card">
+          <div class="ico">⚙️</div>
+          <h3>Automatización a medida</h3>
+          <p>Flujos de mensajes conectados a tu agenda, tu sistema de gestión o tus propias herramientas.</p>
+        </div>
+        <div class="card">
+          <div class="ico">🧩</div>
+          <h3>Plataformas por rubro</h3>
+          <p>Productos web pensados para cada tipo de negocio, que cada cliente conecta con su propio número de WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <section class="section" aria-labelledby="experience-title">
-        <h2 id="experience-title" data-i18n="sections.experience">Experience</h2>
-        <div id="experience-content" class="stack"></div>
-      </section>
+  <section id="kinesiologia">
+    <div class="wrap two">
+      <div>
+        <span class="tag">Primer producto · En desarrollo</span>
+        <h2>Gestión de turnos para kinesiólogos</h2>
+        <p>Una web para que kinesiólogos y centros de rehabilitación organicen su agenda y notifiquen a sus pacientes por WhatsApp de forma automática, desde su propio número profesional.</p>
+        <p style="color:var(--muted)">Es el primero de una familia de productos sobre la misma plataforma: la base técnica se reutiliza para otros rubros.</p>
+      </div>
+      <div>
+        <ul class="checks">
+          <li><b>Agenda de turnos</b> con recordatorios automáticos.</li>
+          <li><b>Confirmación en un toque</b> por parte del paciente.</li>
+          <li><b>Tu número, tu marca:</b> cada profesional conecta su propia cuenta de WhatsApp Business.</li>
+          <li><b>Mensajes mínimos:</b> fecha, hora y profesional. Nunca información clínica.</li>
+          <li><b>Consentimiento registrado</b> del paciente para recibir mensajes.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-      <section class="section two-column" aria-labelledby="skills-title">
+  <section id="privacidad" class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Datos personales, con cuidado</h2>
+        <p>Los pacientes confían datos sensibles a sus profesionales. Por eso el diseño parte de usar la menor cantidad de datos posible.</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <h3>Mensajería oficial</h3>
+          <p>Todo se envía mediante la WhatsApp Business Platform de Meta, cumpliendo sus políticas de uso y de plantillas.</p>
+        </div>
+        <div class="card">
+          <h3>Consentimiento</h3>
+          <p>Solo se escribe a quienes aceptaron recibir mensajes, y pueden dejar de recibirlos cuando quieran.</p>
+        </div>
+        <div class="card">
+          <h3>Ley 25.326</h3>
+          <p>El tratamiento de datos personales se ajusta a la normativa argentina. Detalles en la <a href="privacidad.html">Política de Privacidad</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi">
+    <div class="wrap two">
+      <div>
+        <h2>Quién está detrás</h2>
+        <p>Soy Dario Ballerini, desarrollador full stack y tech lead. Trabajo de forma independiente diseñando y construyendo productos de software, con foco en integraciones y automatización de mensajería.</p>
+      </div>
+      <div>
+        <p style="color:var(--muted)">Titular del servicio: Dario Gaston Ballerini, CUIT 20-38801588-9, Villa La Angostura, Neuquén, Argentina.</p>
+        <p style="color:var(--muted)">Contacto: <a href="mailto:contacto@darioballerini.dev">contacto@darioballerini.dev</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" style="padding-top:0">
+    <div class="wrap">
+      <div class="contact-box">
         <div>
-          <h2 id="skills-title" data-i18n="sections.skills">Skills</h2>
-          <div id="skills-content" class="stack compact"></div>
+          <h2>¿Tenés un proceso que se pueda automatizar?</h2>
+          <p>Contame tu caso y vemos si tiene sentido construirlo. Respondo por email.</p>
         </div>
+        <dl>
+          <dt>Email</dt>
+          <dd><a href="mailto:contacto@darioballerini.dev">contacto@darioballerini.dev</a></dd>
+          <dt>Ubicación</dt>
+          <dd>Villa La Angostura, Neuquén, Argentina</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
 
-        <div class="stack">
-          <div>
-            <h2 id="languages-title" data-i18n="sections.languages">Languages</h2>
-            <div id="languages-content" class="stack compact"></div>
-          </div>
-          <div>
-            <h2 id="education-title" data-i18n="sections.education">Education</h2>
-            <div id="education-content" class="stack compact"></div>
-          </div>
-        </div>
-      </section>
-    </main>
+</main>
 
-    <script src="./app.js" defer></script>
-  </body>
+<footer class="site">
+  <div class="wrap">
+    <span>© <span id="y">2026</span> Dario Gaston Ballerini · CUIT 20-38801588-9</span>
+    <span><a href="privacidad.html">Privacidad</a> · <a href="terminos.html">Términos del servicio</a></span>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
 </html>
